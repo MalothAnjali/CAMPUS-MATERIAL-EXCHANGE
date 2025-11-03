@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { generateText } from './services/genApi';
 import { Upload, Search, Star, Download, BookOpen, Users, TrendingUp, Settings, Trash2, UserPlus, LogIn, Shield, Eye, Folder, FileText, Bot, User, FileQuestion, Zap, Send, Home, ChevronRight } from 'lucide-react';
 
-// Utility function to organize files by subject and unit
 const organizeFilesBySubjectAndUnit = (files) => {
   const folders = {};
   files.forEach(file => {
@@ -23,7 +22,7 @@ const organizeFilesBySubjectAndUnit = (files) => {
   return folders;
 };
 
-// Create folder structure for navigation
+
 const createFolderStructure = (folders) => {
   return {
     id: 'root',
