@@ -1,40 +1,40 @@
-📘 Campus Materials Exchange
+Campus Materials Exchange
 A modern, AI-powered platform for students and faculty to share, browse, and manage educational materials such as notes, assignments, and resources.
 The app provides a Google Drive–style folder structure, role-based access, and integrated AI assistance for automatic tagging, summarization, and quiz generation.
 
-🚀 Features
-🔐 Authentication
+Features
+Authentication
 Student signup and login with department and semester info.
 Admin login (hidden credentials for system management).
 Guest access for browsing without full privileges.
 
-🧠 AI Integration
+AI Integration
 AI-powered tag generation for uploaded materials.
 Integrated study assistant chatbot for PDFs — can summarize, quiz, and extract key points.
 
-🗂 File Management
+File Management
 Organized by subject → unit → file hierarchy.
 Upload, preview, rate, download, or delete materials.
 Supports .pdf, .doc, .docx, .ppt, .pptx, and .txt.
 
-👤 User Dashboard
+User Dashboard
 Track uploads, downloads, and average ratings.
 View and manage personal contributions.
 Role-based features for admin and student users.
 
-⚙ Admin Tools
+Admin Tools
 Manage users and uploaded materials.
 Moderate and maintain repository quality.
 
-🎨 UI/UX
+UI/UX
 Built with Tailwind CSS and Lucide React Icons.
 Dynamic dark gradient theme with responsive design.
 Breadcrumb navigation and intuitive folder-based browsing.
 
-🧩 Tech Stack
+Tech Stack
 CategoryTechnologyFrontendReact (Hooks)StylingTailwind CSSIconsLucide ReactAI IntegrationCustom generateText() via Gemini APIState ManagementReact useState / useEffectStorageBrowser localStorageFile HandlingBlob URLs (for previews & downloads)
 
-⚙ Installation & Setup
+Installation & Setup
 cd campus-materials-exchange
 Install dependencies
 npm install
@@ -56,9 +56,9 @@ npm run dev
 Build for production
 npm run build
 
-🧑‍💻 Default Accounts
+Default Accounts
 Role Email:Adminadmin@campus.com,password:admin123
-🧱 Folder Structure
+Folder Structure
 src/
 ├── App.jsx
 ├── services/
@@ -71,7 +71,7 @@ src/
 ├── assets/
 │   └── icons, styles, etc.
 
-🤖 AI Features (Gemini Integration)
+AI Features (Gemini Integration)
 Generates intelligent tags for uploaded content.
 In-PDF assistant can:
 Summarize documents
@@ -79,7 +79,7 @@ Create quizzes
 Highlight key points
 Answer context-based questions
 
-🧠 Future Improvements
+Future Improvements
 Firebase/Node backend integration.
 File persistence beyond localStorage.
 Cloud storage (e.g., Google Drive API or AWS S3).
