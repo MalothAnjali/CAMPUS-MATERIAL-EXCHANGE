@@ -30,14 +30,23 @@ npm install
 
 Set up API
 
+
 Create a file src/services/genApi.js with your AI API logic:
+
 export async function generateText(prompt) {
+
   // Example using Gemini or OpenAI API
+  
   const response = await fetch('/api/generate', {
+  
     method: 'POST',
+    
     body: JSON.stringify({ prompt }),
+    
   });
+  
   return await response.json();
+  
 }
 
 Run the development server
