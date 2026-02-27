@@ -58,17 +58,30 @@ npm run build
 Default Accounts
 Role Email:Adminadmin@campus.com,password:admin123
 Folder Structure
+
+
 src/
+
 ├── App.jsx
+
 ├── services/
+
 │   └── genApi.js
+
 ├── components/
+
 │   ├── UploadForm.jsx
+
 │   ├── BrowseSection.jsx
+
 │   ├── PDFChatbot.jsx
+
 │   └── ...
+
 ├── assets/
+
 │   └── icons, styles, etc.
+
 
 AI Features (Gemini Integration)
 
