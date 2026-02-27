@@ -72,8 +72,13 @@ Answer context-based questions
 
 Future Improvements
 
+
 Firebase/Node backend integration.
+
 File persistence beyond localStorage.
+
 Cloud storage (e.g., Google Drive API or AWS S3).
-Multi-user collaboration and commenting.# CAMPUS-MATERIAL-EXCHANGE
+
+Multi-user collaboration and commenting.
+# CAMPUS-MATERIAL-EXCHANGE
  
